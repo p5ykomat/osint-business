@@ -42,7 +42,7 @@ Cette commande installe les dépendances, prépare le programme et génère les 
 | MCP data.gouv.fr | Découverte de jeux et de ressources supplémentaires | Non pour le point d'accès public |
 | Origami, OpenLégi | Compléments optionnels | Selon le service, avec votre propre compte |
 
-Les connexions facultatives ne bloquent pas le démarrage. [Créer et configurer ses accès](docs/ACCES.md).
+Les connexions facultatives ne bloquent pas le démarrage. Une fois connectées, l'agent doit les utiliser selon le besoin : Origami pour les ramifications, data.gouv.fr pour compléter les sources, OpenLégi pour les questions juridiques et un lecteur documentaire pour les pièces. La skill précise ces déclencheurs et demande de signaler les accès indisponibles. [Créer et configurer ses accès](docs/ACCES.md).
 
 ## Ce qui est fourni
 

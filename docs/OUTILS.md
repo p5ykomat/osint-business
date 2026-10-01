@@ -41,7 +41,9 @@ Le serveur local expose 18 outils MCP. Le modèle de votre client décide lesque
 
 ## MCP complémentaires
 
-data.gouv.fr, Origami, OpenLégi et les lecteurs de documents sont des connexions distinctes. Leur présence n'est pas supposée. Voir [ACCES.md](ACCES.md). Une page de catalogue ou un résultat de recherche n'est pas la preuve contenue dans le document sous-jacent.
+data.gouv.fr, Origami, OpenLégi et les lecteurs de documents sont des connexions distinctes. L'agent découvre ceux qui sont disponibles puis applique les déclencheurs de [la skill](../.agents/skills/osint-business/SKILL.md), sans attendre une nouvelle demande. Leur installation est facultative ; leur usage fait partie de la recherche lorsqu'ils sont connectés et pertinents. Voir [ACCES.md](ACCES.md). Une page de catalogue ou un résultat de recherche n'est pas la preuve contenue dans le document sous-jacent.
+
+Le serveur transmet aussi ces consignes au client dans les instructions d'initialisation MCP. Il ne peut ni voir les autres serveurs connectés au client, ni les appeler lui-même : c'est l'agent qui coordonne les appels. La présence des instructions ne garantit pas à elle seule leur respect par chaque modèle. Vérifier dans le rapport les consultations réellement effectuées et les limites signalées.
 
 ## Vérification du logiciel
 

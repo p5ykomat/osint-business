@@ -38,7 +38,7 @@ Ce MCP découvre des jeux, ressources et API. Il complète les 18 outils locaux.
 
 ## Compléments facultatifs
 
-Ces services ne sont pas installés automatiquement. Le programme de base fonctionne sans eux.
+Ces services ne sont pas installés automatiquement. Le programme de base fonctionne sans eux. Une fois connectés et autorisés, l'agent doit les mobiliser selon les déclencheurs de la skill, sans attendre une nouvelle demande : Origami pour explorer les ramifications, OpenLégi pour une interprétation juridique utile, un lecteur documentaire pour lire les pièces décisives. En cas d'accès manquant ou de quota, il poursuit et explique la limite. Voir [la méthode](../.agents/skills/osint-business/SKILL.md).
 
 ### Origami Entreprises
 

@@ -2,6 +2,7 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { z } from "zod";
+import { agentInstructions } from "./agent-policy.js";
 import { buildCompanyMandateGraph } from "./analysis/graph.js";
 import { assessCompanyOperatingStatus } from "./analysis/company-status.js";
 import {
@@ -35,7 +36,7 @@ import {
 const server = new McpServer({
   name: "osint-business-fr",
   version: "1.0.0",
-});
+}, { instructions: agentInstructions });
 
 function result(value: unknown) {
   return {

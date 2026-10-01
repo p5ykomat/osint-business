@@ -5,6 +5,21 @@ description: Rechercher une entreprise française, désambiguïser ses dirigeant
 
 # Recherche relationnelle sur les entreprises françaises
 
+## 0. Activer les sources disponibles
+
+Au démarrage, découvrir les outils réellement accessibles dans la session, y compris les outils différés du client. Ne pas confondre une configuration déclarée et une connexion qui fonctionne. Les compléments sont facultatifs à installer, mais leur utilisation fait partie de la méthode dès que le besoin ci-dessous se présente. Ne pas attendre que l'utilisateur les réclame à nouveau dans une enquête autorisée.
+
+| Complément connecté | Déclencheur et action |
+|---|---|
+| Origami | Enquête sur les ramifications : après résolution du sujet, consulter les mandats et sociétés reliées, même si le premier graphe public paraît complet. Recouper les liens matériels avec les registres ou les pièces. |
+| data.gouv.fr | Contrôle sectoriel, commande publique ou lacune non couverte par les connecteurs : découvrir le jeu ou l'API, puis lire la ressource et vérifier sa date et sa couverture. |
+| OpenLégi | Une interprétation juridique influe sur la conclusion : consulter Légifrance pour le droit applicable ou les décisions, le BOFiP seulement pour une question fiscale. Ne pas l'appeler pour une simple fiche d'identité. |
+| Lecteur documentaire, notamment Docling local | Un acte, des comptes ou une autre pièce doit étayer un constat : lire le contenu avant de conclure. Avec Docling, convertir et lire par ancres dans la même session ; conserver les pages et contrôler les passages décisifs. |
+
+Employer les noms et schémas d'outils effectivement exposés. Le client IA assure ces appels entre MCP ; le serveur OSINT Business ne les déclenche pas lui-même. Deux agrégateurs reprenant le même registre ne constituent pas deux preuves indépendantes.
+
+Respecter les accès autorisés, les quotas et le budget externe nul par défaut. Ne pas créer de compte, acheter un accès ou installer une connexion sans demande. Si un complément est absent, refuse l'accès ou atteint son quota, poursuivre avec les sources officielles disponibles sans répéter des essais inchangés. Pour chaque complément pertinent, consigner : utilisé (appel effectif et résultat), indisponible (raison) ou non pertinent (raison). Une simple liste d'outils ne compte pas comme une consultation.
+
 ## 1. Identifier
 
 Relever le nom ou le SIREN, le périmètre, la période et le résultat attendu. Appeler `resolve_company` avant les approfondissements. En présence d'homonymes, demander un identifiant ou un contexte professionnel, sans choisir le premier résultat. Vérifier la forme juridique : une entreprise individuelle n'a pas les mêmes obligations de comptes qu'une société.
