@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 480" role="img" aria-labelledby="title desc">
+<title id="title">osint business</title><desc id="desc">Un réseau de points verts et un lettrage de terminal sur fond noir, pour explorer les entreprises françaises.</desc>
+<defs>
+<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#153027" stroke-width="1"/></pattern>
+<radialGradient id="light"><stop stop-color="#164b35"/><stop offset="1" stop-color="#071511"/></radialGradient>
+<filter id="glow"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<rect width="1200" height="480" rx="24" fill="#071511"/>
+<rect width="1200" height="480" rx="24" fill="url(#light)"/>
+<rect width="1200" height="480" rx="24" fill="url(#grid)" opacity=".45"/>
+<path d="M44 82V44h38M1118 44h38v38M44 398v38h38M1118 436h38v-38" fill="none" stroke="#72f6a7" stroke-width="2"/>
+<g stroke="#64db97" fill="none" stroke-width="2"><path d="m152 244 76-104 89 105-83 107-82-108 165 1M228 140l6 212" opacity=".65"/><circle cx="234" cy="245" r="72" stroke-dasharray="3 10" opacity=".45"/></g>
+<g fill="#8fffad" filter="url(#glow)" opacity=".6"><circle cx="228" cy="140" r="13"/><circle cx="152" cy="244" r="13"/><circle cx="317" cy="245" r="13"/><circle cx="234" cy="352" r="13"/></g>
+<g fill="#a7ffc1"><path d="M218 130h20v20h-20zM142 234h20v20h-20zM307 235h20v20h-20zM224 342h20v20h-20z"/></g>
+<text x="394" y="114" font-family="monospace" font-size="15" letter-spacing="5" fill="#80b39a">RECHERCHE EN SOURCES OUVERTES</text>
+<g font-family="monospace" font-weight="700" font-size="88" letter-spacing="-5" fill="#b3ffca"><text x="390" y="224">osint</text><text x="390" y="321">business<tspan fill="#6cf29e">_</tspan></text></g>
+<path d="M396 355h697" stroke="#325a45"/>
+<text x="396" y="391" font-family="monospace" font-size="16" fill="#94b6a2" letter-spacing="2">ENTREPRISES FRANÇAISES / LIENS / DOCUMENTS</text>
+<circle cx="1087" cy="98" r="5" fill="#91ffb0"/>
+</svg>
