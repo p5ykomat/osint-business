@@ -1,8 +1,8 @@
 ![osint business, recherche sur les entreprises françaises](docs/assets/osint-business.svg)
 
-# OSINT Business
+# Agent IA - OSINT Business
 
-**Explorer une entreprise française et comprendre ses liens, avec des sources à chaque étape.**
+**Un agent IA à installer dans Codex ou Claude Code pour explorer les entreprises françaises et leurs liens, avec des sources à chaque étape.**
 
 OSINT Business équipe votre agent IA de 18 outils : recherche d'entreprises, mandats, annonces BODACC, actes et comptes INPI, décisions publiées et graphes de relations. Une méthode accompagne les outils pour distinguer les faits, les homonymes et les pistes à vérifier.
 
